@@ -2,4 +2,4 @@
 
 This do nothing but report the weather
 
-See: <http://pa4373.github.io/jstutorials>
+See: <http://pa4373.github.io/weather-jarnvis>
