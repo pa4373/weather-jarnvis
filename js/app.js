@@ -65,7 +65,7 @@ responsive voice: http://responsivevoice.org/
             + weatherInfo.location.city + ', ' + weatherInfo.location.country,
           noCity = 'Sorry, I found no city matching ' + city;
 
-        if (data.query.count === 0) {
+        if (data.query.count === 0 || data.query.results.channel.item.title === 'City not found') {
           responsiveVoice.speak(noCity);
           setSubtitle(noCity);
           return false;
